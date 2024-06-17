@@ -1,0 +1,28 @@
+<?xml version="1.0"?>
+<?xml-model href="http://download.ros.org/schema/package_format3.xsd" schematypens="http://www.w3.org/2001/XMLSchema"?>
+<package format="3">
+  <name>ceros_core</name>
+  <version>1.0.0</version>
+  <description>CEROS core package</description>
+  <maintainer email="teerameth.sk@gmail.com">Teerameth Rassameecharoenchai</maintainer>
+  <license>Apache License 2.0</license>
+
+  <buildtool_depend>ament_cmake</buildtool_depend>
+
+  <depend>cv_bridge</depend>
+  <depend>image_transport</depend>
+  <depend>std_msgs</depend>
+  <depend>sensor_msgs</depend>
+  <depend>geometry_msgs</depend>
+  <depend>tf2</depend>
+  <depend>tf2_ros</depend>
+  <depend>diagnostic_updater</depend>
+  <depend>camera_calibration</depend>
+  
+  <exec_depend>launch_ros</exec_depend>
+  <build_depend>ros_environment</build_depend>
+
+  <export>
+    <build_type>ament_cmake</build_type>
+  </export>
+</package>
